@@ -1,0 +1,16 @@
+{
+  "s3OriginBucket":"nike-commerce-test-app-internal",
+  "s3DestinationBucket":"nike-commerce-test-app-internal",
+  "prefixOfReadLocation":"applications/price-jei/assortment-plan/eur/",
+  "prefixOfWriteLocation":"applications/price-jei-test/assortment-plan/eur/",
+  "copyType":"COPY_SPECIFIC_FILES",
+  "awsCredentials" : {
+    "originKey": "a",
+    "originSecretKey": "a",
+    "originToken":"a",
+    "destinationKey":"",
+    "destinationSecretKey":"",
+    "destinationToken":"a"
+  },
+  "fileList": ["applications/price/gp-avro-test/particular.txt"]
+}

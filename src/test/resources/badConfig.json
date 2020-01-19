@@ -1,0 +1,14 @@
+{
+  "s3OriginBucket":"nike-commerce-test-app-internal",
+  "s3DestinationBucket":"nike-commerce-test-app-internal",
+  "prefixForNewLocation":"test/prefix/",
+  "copyType":"COPY_FROM_LEVEL",
+  "awsCredentials" : {
+    "originKey": "testValue",
+    "originSecretKey": "testValue",
+    "originToken":"testValue",
+    "destinationKey":"testValue",
+    "destinationSecret":"testvalue"
+  },
+  "fileList": ["testFile1", "testFile2"]
+}
