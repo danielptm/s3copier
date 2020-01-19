@@ -1,4 +1,4 @@
-package com.nike.s3copier.s3;
+package com.danielptm.s3copier.s3;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicSessionCredentials;
@@ -7,7 +7,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.ListObjectsV2Request;
 import com.amazonaws.services.s3.model.ListObjectsV2Result;
 import com.amazonaws.services.s3.model.S3Object;
-import com.nike.s3copier.logger.CopyLogger;
+import com.danielptm.s3copier.logger.CopyLogger;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.Logger;
 

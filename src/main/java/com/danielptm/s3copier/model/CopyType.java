@@ -1,4 +1,4 @@
-package com.nike.s3copier.model;
+package com.danielptm.s3copier.model;
 
 public enum CopyType {
     COPY_FROM_LEVEL,

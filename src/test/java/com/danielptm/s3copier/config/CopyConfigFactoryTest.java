@@ -1,6 +1,6 @@
-package com.nike.s3copier.config;
+package com.danielptm.s3copier.config;
 
-import com.nike.s3copier.model.CopyConfig;
+import com.danielptm.s3copier.model.CopyConfig;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

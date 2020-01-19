@@ -1,4 +1,4 @@
-package com.nike.s3copier.logger;
+package com.danielptm.s3copier.logger;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

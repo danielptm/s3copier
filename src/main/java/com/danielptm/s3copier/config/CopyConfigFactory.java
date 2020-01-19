@@ -1,9 +1,9 @@
-package com.nike.s3copier.config;
+package com.danielptm.s3copier.config;
 
+import com.danielptm.s3copier.logger.CopyLogger;
+import com.danielptm.s3copier.model.CopyConfig;
+import com.danielptm.s3copier.model.CopyType;
 import com.google.gson.Gson;
-import com.nike.s3copier.logger.CopyLogger;
-import com.nike.s3copier.model.CopyConfig;
-import com.nike.s3copier.model.CopyType;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.Logger;
 

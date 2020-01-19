@@ -1,8 +1,8 @@
-package com.nike.s3copier.manager;
+package com.danielptm.s3copier.manager;
 
 import com.amazonaws.services.s3.model.ListObjectsV2Result;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.nike.s3copier.s3.Client;
+import com.danielptm.s3copier.s3.Client;
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

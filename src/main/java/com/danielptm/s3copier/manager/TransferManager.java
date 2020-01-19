@@ -1,11 +1,11 @@
-package com.nike.s3copier.manager;
+package com.danielptm.s3copier.manager;
 
 import com.amazonaws.services.s3.model.ListObjectsV2Result;
-import com.nike.s3copier.config.CopyConfigFactory;
-import com.nike.s3copier.logger.CopyLogger;
-import com.nike.s3copier.model.CopyConfig;
-import com.nike.s3copier.model.CopyType;
-import com.nike.s3copier.s3.Client;
+import com.danielptm.s3copier.logger.CopyLogger;
+import com.danielptm.s3copier.config.CopyConfigFactory;
+import com.danielptm.s3copier.model.CopyConfig;
+import com.danielptm.s3copier.model.CopyType;
+import com.danielptm.s3copier.s3.Client;
 import org.apache.logging.log4j.Logger;
 
 import java.util.List;

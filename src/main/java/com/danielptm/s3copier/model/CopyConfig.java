@@ -1,8 +1,7 @@
-package com.nike.s3copier.model;
+package com.danielptm.s3copier.model;
 
 import java.util.List;
 import java.util.Map;
-import java.util.StringJoiner;
 
 public class CopyConfig {
     private final String s3OriginBucket;

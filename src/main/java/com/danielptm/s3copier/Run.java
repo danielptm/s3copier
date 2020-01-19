@@ -1,7 +1,7 @@
-package com.nike.s3copier;
+package com.danielptm.s3copier;
 
-import com.nike.s3copier.logger.CopyLogger;
-import com.nike.s3copier.manager.TransferManager;
+import com.danielptm.s3copier.logger.CopyLogger;
+import com.danielptm.s3copier.manager.TransferManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

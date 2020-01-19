@@ -1,6 +1,6 @@
-package com.nike.s3copier;
+package com.danielptm.s3copier;
 
-import com.nike.s3copier.logger.CopyLogger;
+import com.danielptm.s3copier.logger.CopyLogger;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
